@@ -13,3 +13,9 @@
 <script setup>
   import Navigation from "@/components/Navigation.vue"
 </script>
+
+<style>
+  body{
+    background-color: #F5EBDC;
+  }
+</style>

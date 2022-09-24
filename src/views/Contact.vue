@@ -104,7 +104,7 @@
                 name="name"
                 id="name"
                 placeholder="Full Name"
-                class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
+                class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-200 font-semibold focus:border-indigo-500 focus:outline-none"
               />
             </div>
 
@@ -115,7 +115,7 @@
                 name="email"
                 id="email"
                 placeholder="Email"
-                class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
+                class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-200 font-semibold focus:border-indigo-500 focus:outline-none"
               />
             </div>
 
@@ -126,7 +126,7 @@
                 name="tel"
                 id="tel"
                 placeholder="Telephone Number"
-                class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
+                class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-200 font-semibold focus:border-indigo-500 focus:outline-none"
               />
             </div>
             <textarea
@@ -149,4 +149,12 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+  import { ref } from "vue";
+
+  const fullName = ref("");
+  const email = ref("");
+  const phoneNumber = ref("");
+  const message = ref("");
+
+</script>
