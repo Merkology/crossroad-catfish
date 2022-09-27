@@ -4,7 +4,7 @@
     <router-link to="/">Home</router-link> |
   </nav>
 -->
-  <div class="w-full">
+  <div class="w-full pb-14">
     <Navigation />
   </div>
   <router-view />
