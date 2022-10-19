@@ -39,39 +39,38 @@
           class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#F5EBDC]"
         >
           <li>
-            <a
-              href="#"
+            <button
               class="block text-xl py-2 pr-4 pl-3 text-[#6d3945] bg-blue-700 rounded md:bg-transparent md:text-[#6d3945] md:p-0"
               aria-current="page"
-              >Home</a
+              >Home</button
             >
           </li>
           <li>
-            <a
+            <button
               href="#"
               class="block text-xl py-2 pr-4 pl-3 text-[#6d3945] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0"
-              >About</a
+              >About</button
             >
           </li>
           <li>
-            <a
+            <button
               href="#"
               class="block text-xl py-2 pr-4 pl-3 text-[#6d3945] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0"
-              >Services</a
+              >Services</button
             >
           </li>
           <li>
-            <a
+            <button
               href="#"
               class="block text-xl py-2 pr-4 pl-3 text-[#6d3945] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0"
-              >Pricing</a
+              >Pricing</button
             >
           </li>
           <li>
-            <a
+            <button
               href="#"
               class="block text-xl py-2 pr-4 pl-3 text-[#6d3945] rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0"
-              >Contact</a
+              >Contact</button
             >
           </li>
         </ul>
